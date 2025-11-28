@@ -11,6 +11,6 @@ public class UniqueElement {
             result = result^num;
         }
         return result;
-    }
+    } 
 }
   
