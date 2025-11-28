@@ -13,7 +13,7 @@ public class ReplaceWithGreatestOnRight {
             arr[i] = maxFromRight;       // replace with max to the right
             if (temp > maxFromRight) {   // update running max
                 maxFromRight = temp;
-            }
+            } 
         }
     }
 
