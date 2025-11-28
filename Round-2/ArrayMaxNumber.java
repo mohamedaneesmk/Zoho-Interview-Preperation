@@ -6,7 +6,7 @@ public class ArrayMaxNumber {
     }
 
     public static String findArrayMaxNumber(int[] nums) {
-        int[] count = new int[10];
+        int[] count = new int[10]; 
         for (int num : nums) {
             count[num]++;
         }
