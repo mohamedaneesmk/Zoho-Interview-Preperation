@@ -21,7 +21,7 @@ public class FloodFill {
     }
 
     private static void dfs(int[][] image, int r, int c, int start, int color) {
-        int m = image.length, n = image[0].length;
+        int m = image.length, n = image[0].length; 
         if (r < 0 || r >= m || c < 0 || c >= n || image[r][c] != start) return;
 
         image[r][c] = color;
