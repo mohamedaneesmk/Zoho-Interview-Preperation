@@ -8,7 +8,7 @@ public class RemoveDuplicates {
         StringBuilder result = new StringBuilder();
         
         for (int i = 0; i < input.length(); i++) {
-            char ch = input.charAt(i);
+            char ch = input.charAt(i); 
             
             // Normalize: lowercase for letters, keep as-is for digits/others
             String normalized = Character.isLetter(ch) ? 
