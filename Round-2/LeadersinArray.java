@@ -12,7 +12,7 @@ public class LeadersinArray {
         for (int i = nums.length - 1; i >= 0; i--) {
             if (max < nums[i]) {
                 max = nums[i];
-                result.insert(0, max + " ");
+                result.insert(0, max + " "); 
             }
         }
 
