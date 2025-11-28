@@ -4,7 +4,7 @@ public class FirstOccurenceIndex {
         String needle = "leeto";
         int result = FindThFirstOccurenceIndex(hayStack,needle);
         System.out.println(result);
-    }
+    } 
 
     private static int FindThFirstOccurenceIndex(String hayStack, String needle) {
         for(int i=0;i<hayStack.length()-needle.length()+1;i++){
