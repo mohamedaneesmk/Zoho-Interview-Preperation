@@ -38,4 +38,4 @@ class RemoveFirstKElements {
 
         return new ArrayList<>(queue);
     }
-}
+} 
