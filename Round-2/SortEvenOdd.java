@@ -18,7 +18,7 @@ class SortEvenOdd {
 
         for (int index = 0; index < nums.length; index++) {
             if (index % 2 == 0)
-                evenIndex.add(nums[index]);
+                evenIndex.add(nums[index]); 
             else
                 oddIndex.add(nums[index]);
         }
