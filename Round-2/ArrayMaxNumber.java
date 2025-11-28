@@ -3,7 +3,7 @@ public class ArrayMaxNumber {
         int[] nums = {8, 7, 9, 1};
         String maxNumber = findArrayMaxNumber(nums);
         System.out.println("Maximum Number Formed: " + maxNumber);
-    }
+    } 
 
     public static String findArrayMaxNumber(int[] nums) {
         int[] count = new int[10]; 
