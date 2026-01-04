@@ -10,7 +10,7 @@ public class MissingNumber {
 
         for (int i = 0; i < n; i++) { // 2 < 3
             xor = xor ^ i; // xor = 2 ^ 2 = 0
-            xor = xor ^ nums[i]; // xor = 0 ^ 1 = 1 
+            xor = xor ^ nums[i]; // xor = 0 ^ 1 = 1  
         }
 
         return xor ^ n; // xor = 1 ^ 3 = 2
